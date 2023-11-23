@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a7c76e-1129-4b42-a428-dc231895b2ad" name="Changes" comment="" />
+    <list default="true" id="d0a7c76e-1129-4b42-a428-dc231895b2ad" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Serie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Titulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
