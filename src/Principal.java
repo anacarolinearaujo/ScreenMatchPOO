@@ -1,3 +1,6 @@
+import br.alura.screenmatch.calculos.CalculadoraDeTempo;
+import br.alura.screenmatch.calculos.FiltroRecomendacao;
+import br.com.alura.screenmatch.modelos.Episodio;
 import br.com.alura.screenmatch.modelos.Filme;
 import br.com.alura.screenmatch.modelos.Serie;
 
@@ -26,6 +29,23 @@ public class Principal {
         lost.exibeFichaTecnica();
         lost.setTemporada(10);
         lost.setEpisodioPorTemporada(10);
+        lost.setMinPorEpisodio(50);
+        System.out.println("Duração em min " + lost.getDuracaoEmMinutos() );
+
+        CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
+        calculadora.inclui(meuFilme);
+        calculadora.inclui(lost);
+        System.out.println(calculadora.getTempoTotal());
+
+        FiltroRecomendacao filtro = new FiltroRecomendacao();
+        filtro.filtra(meuFilme);
+
+        Episodio episodio = new Episodio();
+        episodio.setNumero(1);
+        episodio.setSerie(lost);
+        episodio.setTotalVisualizacoes(300);
+        filtro.filtra(episodio);
+
 
     }
 }
